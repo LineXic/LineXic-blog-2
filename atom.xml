@@ -6,7 +6,7 @@
   <link href="https://linexic.top/atom.xml" rel="self"/>
   
   <link href="https://linexic.top/"/>
-  <updated>2025-01-26T06:32:42.813Z</updated>
+  <updated>2025-01-26T17:14:57.018Z</updated>
   <id>https://linexic.top/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>盒子模型的边框及内边距和外边距</title>
+    <link href="https://linexic.top/2025/01/27/guigu-css-27-box-model-2/"/>
+    <id>https://linexic.top/2025/01/27/guigu-css-27-box-model-2/</id>
+    <published>2025-01-26T16:05:01.000Z</published>
+    <updated>2025-01-26T17:14:57.018Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文基于<a href="https://b23.tv/Wky0XJk">尚硅谷Web前端基础</a>教程发布，你也可以理解成这是一篇尚硅谷教程笔记，当然这里也有我的一些经验总结</p></blockquote><h1 id="边框"><a href="#边框" class="headerlink" title="边框"></a>边框</h1><blockquote><p>border</p></blockquote><p><img src="https://s2.loli.net/2025/01/27/nb5rtkHGcTLN624.png" alt="Screenshot_2025_0126_232303.png"></p><p>可以利用<code>border-width</code> <code> border-color</code> <code>border-style</code>属性定义边框的宽，颜色和样式宽的一般默认值是3像素，但可能会因为浏览器的差异而差异所以即使需求就是3px也需要手动添加防止一些浏览器不「遵守规则」</p><p>一般的<code>border-width</code>可以指定四个方向边框的宽的情况，形如</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">border-width</span>: xxx xxx xxx xxx;</span><br></pre></td></tr></table></figure><ul><li>四个值：上 右 下 左;</li><li>三个值：上 左右 下;</li><li>两个值：上下 左右</li><li>一个值：上下左右</li></ul><p>以后见到一些其他元素也是根据这个顺序排列的，例外很少所以要记好</p><p>当然<code>border</code>也定义进行单独框的样式形如<code>border-xxx-width</code>同样的也有四个可选情况<code>top</code> <code>right</code> <code>bottom</code> <code>left</code>分别对应顺时针上 左 下 右</p><h2 id="简写属性"><a href="#简写属性" class="headerlink" title="简写属性"></a>简写属性</h2><p>a.每次都要写六行也太麻烦了吧，有没有简写属性呢？<br>b.有的有的那就是<code>border: xxx xxx xxx</code>里面可填的属性包括像素，颜色和实虚边切可以所以调换位置如<code>border: 5px solid red;</code></p><p>除此之外还有使各个边样式不同的的属性就是<code>border-xxx</code>这里面可以是<code>top</code> <code>right</code> <code>bottom</code> <code>left</code>形如 <code>border-xxx: xxx xxx xxx</code>。</p><p>提问：如何只设置两条三条边框不要右边的边框<br><img src="https://s2.loli.net/2025/01/27/qlNyU4xFHeDfCiW.png" alt="Screenshot_2025_0127_010602.png"><br>有两种方法，一种是设置</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">border-top</span>: <span class="number">5px</span> solid red;</span><br><span class="line"><span class="attribute">border-bottom</span>: <span class="number">5px</span> solid red;</span><br><span class="line"><span class="attribute">border-left</span>: <span class="number">5px</span> solid red;</span><br></pre></td></tr></table></figure><p>但这种方法还是有点麻烦，可以使用这个方法</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">border</span>: <span class="number">5px</span> solid red;</span><br><span class="line"><span class="attribute">border-left</span>: right;</span><br></pre></td></tr></table></figure><p>效果是一样的<br><img src="https://s2.loli.net/2025/01/27/DvuO43nbU1Bf5NQ.png" alt="Screenshot_2025_0127_011415.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;本文基于&lt;a href=&quot;https://b23.tv/Wky0XJk&quot;&gt;尚硅谷Web前端基础&lt;/a&gt;教程发布，你也可以理解成这是一篇尚硅谷教程笔记，当然这里也有我的一些经验总结&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;边框&quot;&gt;&lt;a h</summary>
+      
+    
+    
+    
+    <category term="前端" scheme="https://linexic.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="CSS" scheme="https://linexic.top/tags/CSS/"/>
+    
+    <category term="前端" scheme="https://linexic.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>读法捷耶夫《毁灭》</title>
@@ -514,30 +543,6 @@
     <category term="CSS" scheme="https://linexic.top/tags/CSS/"/>
     
     <category term="前端" scheme="https://linexic.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>GitHub创始人资助Ladybird开源</title>
-    <link href="https://linexic.top/2024/07/11/ladybird/"/>
-    <id>https://linexic.top/2024/07/11/ladybird/</id>
-    <published>2024-07-10T16:00:00.000Z</published>
-    <updated>2025-01-26T06:32:42.813Z</updated>
-    
-    <content type="html"><![CDATA[<p>现在的互联网看此已经形成了一种趋势就是Chrome，Edge，Firefox三大浏览器巨头占据网络，并且现在有名的闭源浏览器Brave 和 Opera都采用了Google的Chromium搜索引擎而chrome就占领了「头头」地位了，这个时候有一个开源浏览器就显得尤为重要，不受商业模式的污染，只专心做自己的浏览器</p><p>值得注意的时候，20年前，GitHub的创始人就为了Firefox买下了两页广告纸<br><img src="https://blog.linexic.top/img/Firefox1.0.jpeg" alt="Firefox"><br>看得出来他很是喜爱和支持开源事业，他认为现在的市场需要一个独立并有创新精神的浏览器，所以投资100万赞助了这款浏览器</p><p>它的独立性体现在两个方面：</p><ul><li>技术：不使用 Blink、WebKit、Gecko 或任何其他浏览器引擎的代码</li><li>收益：虽然资金来自赞助商，但赞助商无权干涉项目的开发和运营</li></ul><p>在这里贴一下Ladybird浏览器的<a href="https://github.com/LadybirdBrowser/ladybird">GitHub仓库</a>地址。该项目目前还在开发阶段，预计2026年夏天上市</p><blockquote><p><a href="https://juejin.cn/post/7389145163857985587">掘金关于Ladybird的热点地址</a></p></blockquote>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;现在的互联网看此已经形成了一种趋势就是Chrome，Edge，Firefox三大浏览器巨头占据网络，并且现在有名的闭源浏览器Brave 和 Opera都采用了Google的Chromium搜索引擎而chrome就占领了「头头」地位了，这个时候有一个开源浏览器就显得尤为重要，</summary>
-      
-    
-    
-    
-    <category term="杂谈" scheme="https://linexic.top/categories/%E6%9D%82%E8%B0%88/"/>
-    
-    
-    <category term="浏览器" scheme="https://linexic.top/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
     
   </entry>
   
