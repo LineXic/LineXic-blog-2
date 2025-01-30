@@ -6,7 +6,7 @@
   <link href="https://linexic.top/atom.xml" rel="self"/>
   
   <link href="https://linexic.top/"/>
-  <updated>2025-01-27T13:11:14.465Z</updated>
+  <updated>2025-01-30T16:49:25.137Z</updated>
   <id>https://linexic.top/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>读费孝通《乡土中国》</title>
+    <link href="https://linexic.top/2025/01/29/xiang-tu/"/>
+    <id>https://linexic.top/2025/01/29/xiang-tu/</id>
+    <published>2025-01-29T14:27:10.000Z</published>
+    <updated>2025-01-30T16:49:25.137Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="https://pic.arkread.com/cover/ebook/f/406225463.1662443688.jpg!cover_default.jpg" alt="乡土中国" title="乡土中国"></p><p>这本书是我在刚进入高中的时候就发下来的，可以说是已经小半年了我也没看寒假的时候重新拾起看了看，感觉不是那么的难懂，加上自己本来就处于「基层」代入自己的生活看这书也就明了了起来，还没看完分享一下自己的拙见。总结一下大概就是<em><strong>人缘和地缘</strong></em></p><p><em><strong>人缘</strong></em> 指人与人之间的关系或是说缘分，在书中描写的有《文字下乡》、《家族》、《男女有别》等<br><em><strong>地缘</strong></em> 其实就是在熟悉的地理位置(如邻居)和人员交往(同一个村或同一条巷)中的「熟人的社会」描写的章节有《乡土本色》《再论文字下乡》《差序格局》等</p><p>开篇就说「乡土社会是”土”的且是一个熟人的社会」说土是因为乡土社会的农民有了土地「半身插进了土里」这一辈子基本不会挪动分毫了。它说因为不会挪动了且世代都在这里了所以对这里的人和物都是熟悉的，这种熟悉是不用规矩限制和法律约束的自然便不会发生什么偷猫盗狗的事情。这种规矩是可靠的、熟悉的大家都会像条件反射般遵守的</p><p>在乡土社会红白事都会有帮忙的这也是邻里的地缘关系一个是沾沾喜气一个便是告诉去世的人您的孩子孙子好着呢。前几天我哥哥结婚便是也有邻里朋友帮忙的最后便一起吃了个饭也是在这个时候我联想到了这本书的情节让我更易读懂</p><p>说了地缘来说人缘。在《文字下乡》中说了乡土社会又一个特点便是「愚」我相信这是贬词褒用。这篇文章主要就是说交流并非只有语言在这样「面对面」的熟人的社会中表情，动作等似乎更容易传情达意所以有些文字没有必要也并非唯一的工具</p><p>书中用「一块石头丢在水面上所发生的一圈圈推出去的波纹」来说亲属关系有一些远亲戚过年过节可能不怎么搭理，可一旦一些近亲戚过年过节的时候可是要一天走好几趟路子去聊家常。中国又有「远亲不如近邻」的俗语这两个都是不错的，分别从人缘和地缘分析的</p><p>总的来说书本覆盖全面且落词生动还不错肯定读完</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://pic.arkread.com/cover/ebook/f/406225463.1662443688.jpg!cover_default.jpg&quot; alt=&quot;乡土中国&quot; title=&quot;乡土中国&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这本书是我在刚进入高中的时</summary>
+      
+    
+    
+    
+    <category term="读书" scheme="https://linexic.top/categories/%E8%AF%BB%E4%B9%A6/"/>
+    
+    
+    <category term="读书" scheme="https://linexic.top/tags/%E8%AF%BB%E4%B9%A6/"/>
+    
+  </entry>
   
   <entry>
     <title>【前端27】盒子模型的边框</title>
@@ -516,33 +541,6 @@
     
     
     <category term="月记" scheme="https://linexic.top/tags/%E6%9C%88%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>【前端20】超链接的伪类和伪元素</title>
-    <link href="https://linexic.top/2024/08/03/guigu-css-20/"/>
-    <id>https://linexic.top/2024/08/03/guigu-css-20/</id>
-    <published>2024-08-02T16:00:00.000Z</published>
-    <updated>2025-01-26T06:32:42.557Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><blockquote><p>本文基于<a href="https://b23.tv/Wky0XJk">尚硅谷Web前端基础</a>教程发布，你也可以理解成这是一篇尚硅谷教程笔记，当然这里也有我的一些经验总结</p></blockquote><p><img src="https://img.linexic.top/file/6fff4280531b0a3a817cd.png" alt="20"></p><h1 id="超链接的伪类"><a href="#超链接的伪类" class="headerlink" title="超链接的伪类"></a>超链接的伪类</h1><p>超链接的伪类是针对a标签的伪类，一般有以下几个</p><ul><li>a:link</li><li>a:visited</li><li>a:hover</li><li>a:active</li></ul><p>在「<a href="https://linexic.top/2024/02/22/guigu-html-13/">超链接</a>」一文中我们也了解到当链接被我们点击时，被点击的链接会变成紫色，所以链接也就简单分为两类</p><p>1.访问过的<br><br>2.没访问过的</p><p>我们可以通过CSS来改变一些效果，比如让没访问过的链接是红色？</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:link</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/e4bae28fc26bb962647e2.png" alt="link"></p><p>如你所见，link表示没访问过的链接，对一般正常的链接都有效果</p><p>而下面这种就和它完全相反，它就是<code>visited</code>它则表示更改访问过的链接的样式</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:visited</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>:black;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/512938db038223454184d.png" alt="visited"></p><p>值得留意的是因为隐私问题<code>visited</code>无法更改字体的大小，必须使用<code>link</code>比如这样</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:link</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>:black;</span><br><span class="line">  <span class="attribute">font-size</span>:<span class="number">50px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/2b1b1bf8ba98f28d987b0.png" alt="link"></p><p>这很有趣，你可以在自己的本地试一下</p><p><img src="https://img.linexic.top/file/d79ab2fc5edd06b9506a6.gif" alt="hover"></p><p>上面这种效果很有趣，那么是怎么实现的呢，比如鼠标移入后链接的状态</p><p>这其实是a的另一种伪类:<code>hover</code>，hover的作用是定义鼠标移入后链接的改变，包括改变一些字体会大小之类的，可以这样完成</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:hover</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>:black;</span><br><span class="line">  <span class="attribute">font-size</span>:<span class="number">50px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>另一个和它相反的伪类就是<code>active</code>了，他则表示鼠标点击后的效果，注意，自己测试时想要查看效果就不要松开鼠标左键，因为松开的话就会跳转到那个网站了，它是这样写的 </p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">a</span><span class="selector-pseudo">:active</span>&#123;</span><br><span class="line">  <span class="attribute">color</span>:yellowgreen;</span><br><span class="line">  <span class="attribute">font-size</span>:<span class="number">50px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>它规定了当鼠标点击后链接变成绿黄色，然后字体为五十像素，因为在手机演示并截图不方便所以就需要大家自己动手了</p><h1 id="伪元素"><a href="#伪元素" class="headerlink" title="伪元素"></a>伪元素</h1><p><img src="https://img.linexic.top/file/eed004549f5f3aa434aed.jpg" alt="伪元素"></p><p>既然伪类表示不存在的类了，那么伪元素就表示在一些特殊位置不存在的元素了，伪元素使用::开头</p><blockquote><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-elements">伪元素</a></p></blockquote><p>如果我们现在有一个需求，就是在页面的第一个字母，仅仅第一个字母变大，我们可以怎么做呢</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>You are amazing<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span> Pug is a terse and simple templating language with a strong focus on performance and powerful features<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><p>有的人可能会说了，可以通过<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/span">span</a>并定义class类啊，比如这样？</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.px</span>&#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>:<span class="number">50px</span>;</span></span><br><span class="line"><span class="language-css">&#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">&quot;px&quot;</span>&gt;</span>Y<span class="tag">&lt;/<span class="name">span</span>&gt;</span>ou are amazing<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span>Pug is a terse and simple templating language with a strong focus on performance and powerful features<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/49b5b736c403e0548a0ec.png" alt="px"></p><p>这样当然也达到了我们的预期效果，但是是不是有一个弊：就是你文章段落多了，想要每一个首字母都变大就需要在每一个字母前加一个span，就很麻烦有没有什么更快捷的方法呢，你记住，<em><strong>不管是伪类也好，伪元素也罢，它们都是为程序员服务的，只会简化工作，不可能让工作变繁琐的</strong></em></p><p>我们可以通过::first-letter来表示定义第一个字母，可以这样写</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">::first-letter</span>&#123;</span><br><span class="line">  <span class="attribute">font-size</span>:<span class="number">50px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>两个段落的p就都改变大小了<br><img src="https://img.linexic.top/file/0e134e2249a7684a842d8.png" alt="p"></p><p>有没有可以范围更广的呢，比如表示第一行的样式？有！那就是<code>first-line</code></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">::first-line</span>&#123;</span><br><span class="line"> <span class="attribute">background-color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>这个意思是定义第一行的背景的颜色为红色，效果是这样的<br><img src="https://img.linexic.top/file/ea63970a7f0c5d0dbe874.png" alt="效果"></p><p>有没有一种办法是当我选中内容的时候字体颜色变色呢？也有！那就是<code>selection</code><br><img src="https://img.linexic.top/file/c15229e912d709ed387ff.png" alt="selection"></p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">::selection</span>&#123;</span><br><span class="line">    <span class="attribute">background-color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>当然这些p可以替换成任意标签但必须有实际意义的</p><p>CSS是一个很有趣的语言，它可以使没有位置的地方出现字并修改效果，更有趣的是这种字体是无法被复制粘贴触发的，也就是说你不能复制这个内容，因为他是CSS创造出的字并不是HTML</p><ul><li>before表示字体的开始</li><li>after表示字体的结束<ul><li>它们必须结合content属性使用</li></ul></li></ul><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">::before</span>&#123;</span><br><span class="line">  <span class="attribute">content</span>:<span class="string">&#x27;我是before &#x27;</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/9c01acef0887be525a993.png" alt="before"><br>如果我们想要改变其样式就在下行添加其他，比如</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-tag">p</span><span class="selector-pseudo">::before</span>&#123;</span><br><span class="line">  <span class="attribute">content</span>:<span class="string">&#x27;我是before &#x27;</span>;</span><br><span class="line">  <span class="attribute">color</span>:red;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img.linexic.top/file/e44af4b0f8f2e33ab3865.png" alt="red"></p><p>而和before相反的after则有异曲同工之处，这里不对做赘述了</p><p>那么这样的样式有什么作用呢？HTML也有一个「快捷方式」那就是<a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/q">q</a>表示双引号<code>&quot;&quot;</code>而<code>before</code>和<code>after</code>则为段落前后提供了更多样式<br><img src="https://img.linexic.top/file/7bc9db5e65f3b884e8ec8.png" alt="emojo"></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;本文基于&lt;a href=&quot;https://b23.tv/Wky0XJk&quot;&gt;尚硅谷Web前端基础&lt;/a&gt;教程发布，你</summary>
-      
-    
-    
-    
-    <category term="前端" scheme="https://linexic.top/categories/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-    <category term="CSS" scheme="https://linexic.top/tags/CSS/"/>
-    
-    <category term="前端" scheme="https://linexic.top/tags/%E5%89%8D%E7%AB%AF/"/>
     
   </entry>
   
