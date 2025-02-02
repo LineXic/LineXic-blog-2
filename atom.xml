@@ -6,7 +6,7 @@
   <link href="https://linexic.top/atom.xml" rel="self"/>
   
   <link href="https://linexic.top/"/>
-  <updated>2025-01-30T16:49:25.137Z</updated>
+  <updated>2025-02-02T13:59:58.790Z</updated>
   <id>https://linexic.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建自己的jsDelivr镜像</title>
+    <link href="https://linexic.top/2025/02/02/jsDelivr-mirror/"/>
+    <id>https://linexic.top/2025/02/02/jsDelivr-mirror/</id>
+    <published>2025-02-02T00:24:44.000Z</published>
+    <updated>2025-02-02T13:59:58.790Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建</p><h2 id="Vercel搭建（推荐）"><a href="#Vercel搭建（推荐）" class="headerlink" title="Vercel搭建（推荐）"></a>Vercel搭建（推荐）</h2><p>源代码仓库:</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="基于Vercel的Jsdelivr反向代理" href="https://github.com/YShenZe/vercel-jsdelivr-mirror" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://github.com/YShenZe/vercel-jsdelivr-mirror" autofill=""><div class="left"><span class="title">基于Vercel的Jsdelivr反向代理</span><span class="cap link footnote">https://github.com/YShenZe/vercel-jsdelivr-mirror</span></div><div class="right"><div class="lazy img" data-bg="https://github.com/favicon.ico"></div></div></a></div><p>可以Fork到自己的仓库然后打开vercel的控制台连接等它屏幕放烟花的时候就成功了</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>由于vercel.app域名被墙，我们可以绑定域名，具体步骤是Sitting→Domains→Add然后添加你的域名吧，记得在域名所在商解析域名，推荐解析到vercel大陆域名</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cname-china.vercel-dns.com</span><br></pre></td></tr></table></figure><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>本项目使用TailwindCss设计样式，用了一些vercel.json的设计规则进行反代有专属英文页面且完全开源，也具有和官网一样的搜索功能</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="梦泽的 jsDelivr 镜像站" href="https://jsdelivr.linexic.top/" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://jsdelivr.linexic.top/" autofill=""><div class="left"><span class="title">梦泽的 jsDelivr 镜像站</span><span class="cap link footnote">https://jsdelivr.linexic.top/</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.com/favicon.ico"></div></div></a></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的</summary>
+      
+    
+    
+    
+    <category term="杂谈" scheme="https://linexic.top/categories/%E6%9D%82%E8%B0%88/"/>
+    
+    
+    <category term="jsDelivr" scheme="https://linexic.top/tags/jsDelivr/"/>
+    
+  </entry>
   
   <entry>
     <title>读费孝通《乡土中国》</title>
@@ -516,31 +540,6 @@
     <category term="CSS" scheme="https://linexic.top/tags/CSS/"/>
     
     <category term="前端" scheme="https://linexic.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>月记之一：生活与梦想</title>
-    <link href="https://linexic.top/2024/08/07/month-1/"/>
-    <id>https://linexic.top/2024/08/07/month-1/</id>
-    <published>2024-08-06T16:00:00.000Z</published>
-    <updated>2025-01-26T06:32:42.837Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://linexic.top/img/yue.jpg" alt="封面"></p><p>距离我上次更新博客已经过去了一个月左右，本来这次月记是想着到整一月的时候更新，可又想想那个时候可能不一定有时间就现在趁着还有点「海绵水」努力的挤点</p><h1 id="日记"><a href="#日记" class="headerlink" title="日记"></a>日记</h1><h2 id="中考"><a href="#中考" class="headerlink" title="中考"></a>中考</h2><p>有了解过的应该知道我现在是一个准高一学生，在七月二日时出的中考成绩，考了376，当时还挺激动的，毕竟两年来最好的一次成绩献给了中考也算是没有遗憾了，中考这一块其实没什么特别的，但也和体考一样，也就这一次了，这一次带给你的体验是不一样的，所以还是记录一下比较好</p><blockquote><p><a href="https://linexic.top/2024/06/22/bi-ye-la/">毕业啦！！</a></p></blockquote><p>今年是中考填报志愿的第一批学生，那个时候也算为志愿操碎了心，七月四号左右就可以填报志愿了，因为考的并不理想所以留下给我们选择的学校也不多，记得那个时候就把1到7中都报了一遍</p><p><img src="https://img.linexic.top/file/9db7ecb11344082f05eeb.jpg" alt="志愿"></p><p>最后还是六中录取了</p><p><img src="https://img.linexic.top/file/a15fb01fdc98da4faafd5.jpg" alt="六中"></p><h2 id="在这之前"><a href="#在这之前" class="headerlink" title="在这之前"></a>在这之前</h2><p>为什么标题要取「生活与梦想」呢，这就要提「在这之前」了</p><p>中考成绩出来之前我的妈妈就已经领着我到处找学校了（为后来铺路）看的大部分都是职高技校，当问到我想学什么的时候我毅然选择了计算机，但可能考虑到计算机太内卷，不好找工作等因素没有同意，认为比如找一个技术活维修之类的养家糊口，所以最终计算机成为了我的梦想，只能做梦想想的东西</p><p>（但看了上段的都知道我最后还是有学校录取的，所以避免了技校这一条路）</p><h1 id="现实生活"><a href="#现实生活" class="headerlink" title="现实生活"></a>现实生活</h1><p>去学校报到后就没有什么事情了，相对轻松了很多并且我明显感觉在家很无聊了，这是有人提议让我找个班上打一个暑假工，想想也没有事情做就答应了</p><p><img src="https://img.linexic.top/file/04b279885f19d41fb2ece.png" alt="调侃"></p><p>因为我有一个Minecraft互通服务器（并且严重缺经费），所以在正式干活的时候在QQ群里的调侃</p><p>这一段时间我没有发博客就是再忙这件事了，为了生活啊，累啊，知道这份工作的不容易后就已经是上班、回家两点一线的生活了，我现在这份工作显然没有成年人难，因为我现在还有父母可以依靠，等我真正长大了「家」这个担子也就落在我身上了。所以<em><strong>长大第一步，先忘记梦想</strong></em></p><h1 id="生活与梦想"><a href="#生活与梦想" class="headerlink" title="生活与梦想"></a>生活与梦想</h1><p>回到主题，「计算机」可以说是我的兴趣一个梦想，但听了大人说的话就逐渐接受了「老人言」，我现在也只能在网络上发发神经，做做文章了</p><p>其实这一版的主题最开始叫「生活与理想」但又想到理想起码还是有实物的东西，而梦想就有点虚无缥缈了</p><p>梦想就像天空上的北斗星，而生活就是漂流在大海迷失方向的船，我们的航行需要北斗星的指引，但是在怎么指引你始终触摸不到他</p><p>可能有人说我悲观主义，甚至认为我认为梦想与现实是不可能交汇的，然而不然，因为有了北斗星的指引你说不定能找到自己的理想从而驶出这片大海，或者因为有可北斗星的指引，你更加努力追求，从而说不定能造出「火箭」虽然这说的都是玩笑话，但是追求梦想与理想的劲头还是要有的</p><p><img src="https://img.linexic.top/file/ebde230ff420b219d1d16.jpg" alt="图片"></p><p>晚安，祝好梦</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://linexic.top/img/yue.jpg&quot; alt=&quot;封面&quot;&gt;&lt;/p&gt;
-&lt;p&gt;距离我上次更新博客已经过去了一个月左右，本来这次月记是想着到整一月的时候更新，可又想想那个时候可能不一定有时间就现在趁着还有点「海绵水」努力的挤点&lt;/p&gt;</summary>
-      
-    
-    
-    
-    <category term="月记" scheme="https://linexic.top/categories/%E6%9C%88%E8%AE%B0/"/>
-    
-    
-    <category term="月记" scheme="https://linexic.top/tags/%E6%9C%88%E8%AE%B0/"/>
     
   </entry>
   
