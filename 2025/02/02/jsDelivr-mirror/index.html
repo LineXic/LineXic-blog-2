@@ -112,15 +112,15 @@ table a:not([class]) {
   <title>搭建自己的jsDelivr镜像 - LineXic书屋</title>
 
   
-    <meta name="description" content="前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建 Vercel搭建（推荐）源代码仓库: 基于Vercel的Jsdelivr反向代理https:&#x2F;&#x2F;github.com&#x2F;YShenZe&#x2F;vercel-jsdelivr-mirror  可以Fork到自己的仓库然后打开vercel">
+    <meta name="description" content="前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加载速度，或者你也可以自己搭建 Vercel搭建（推荐）源代码仓库: 基于Vercel的Jsdelivr反向代理https:&#x2F;&#x2F;github.com&#x2F;YShenZe&#x2F;vercel-jsdelivr-mirror  可以Fork到自己的仓库然后打开vercel">
 <meta property="og:type" content="article">
 <meta property="og:title" content="搭建自己的jsDelivr镜像">
 <meta property="og:url" content="https://linexic.top/2025/02/02/jsDelivr-mirror/index.html">
 <meta property="og:site_name" content="LineXic书屋">
-<meta property="og:description" content="前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建 Vercel搭建（推荐）源代码仓库: 基于Vercel的Jsdelivr反向代理https:&#x2F;&#x2F;github.com&#x2F;YShenZe&#x2F;vercel-jsdelivr-mirror  可以Fork到自己的仓库然后打开vercel">
+<meta property="og:description" content="前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加载速度，或者你也可以自己搭建 Vercel搭建（推荐）源代码仓库: 基于Vercel的Jsdelivr反向代理https:&#x2F;&#x2F;github.com&#x2F;YShenZe&#x2F;vercel-jsdelivr-mirror  可以Fork到自己的仓库然后打开vercel">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-02-02T00:24:44.000Z">
-<meta property="article:modified_time" content="2025-02-02T13:59:58.790Z">
+<meta property="article:modified_time" content="2025-02-02T14:06:06.818Z">
 <meta property="article:author" content="LineXic">
 <meta property="article:tag" content="jsDelivr">
 <meta name="twitter:card" content="summary">
@@ -171,7 +171,7 @@ table a:not([class]) {
   <div class="content">
     <div class="top bread-nav footnote"><div class="left"><div class="flex-row" id="breadcrumb"><a class="cap breadcrumb" href="/">主页</a>
 <span class="sep"></span><a class="cap breadcrumb" href="/">文章</a><span class="sep"></span><a class="cap breadcrumb-link" href="/categories/%E6%9D%82%E8%B0%88/">杂谈</a></div><div id="tag"> <span>&nbsp标签：</span><a class="cap breadcrumb-link" href="/tags/jsDelivr/">jsDelivr</a>&nbsp</div>
-<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-02-02T00:24:44.000Z">2025-02-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-02-02T13:59:58.790Z">2025-02-02</time></span></div><div class="flex-row" id="page-words"><span style="padding: 4px;">本文字数：244字</span><span class="sep updated" style="padding: 4px;"></span><span class="text updated" style="padding: 4px;">阅读时长：1分</span></div></div></div>
+<div class="flex-row" id="post-meta"><span class="text created">发布于：<time datetime="2025-02-02T00:24:44.000Z">2025-02-02</time></span><span class="sep updated"></span><span class="text updated">更新于：<time datetime="2025-02-02T14:06:06.818Z">2025-02-02</time></span></div><div class="flex-row" id="page-words"><span style="padding: 4px;">本文字数：244字</span><span class="sep updated" style="padding: 4px;"></span><span class="text updated" style="padding: 4px;">阅读时长：1分</span></div></div></div>
     
     <div class="bottom only-title">
       
@@ -182,7 +182,7 @@ table a:not([class]) {
     </div>
     
   </div>
-  </div><article class="md-text content"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建</p>
+  </div><article class="md-text content"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加载速度，或者你也可以自己搭建</p>
 <h2 id="Vercel搭建（推荐）"><a href="#Vercel搭建（推荐）" class="headerlink" title="Vercel搭建（推荐）"></a>Vercel搭建（推荐）</h2><p>源代码仓库:</p>
 <div class="tag-plugin link dis-select"><a class="link-card plain" title="基于Vercel的Jsdelivr反向代理" href="https://github.com/YShenZe/vercel-jsdelivr-mirror" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://github.com/YShenZe/vercel-jsdelivr-mirror" autofill=""><div class="left"><span class="title">基于Vercel的Jsdelivr反向代理</span><span class="cap link footnote">https://github.com/YShenZe/vercel-jsdelivr-mirror</span></div><div class="right"><div class="lazy img" data-bg="https://github.com/favicon.ico"></div></div></a></div>
 
@@ -204,7 +204,7 @@ table a:not([class]) {
       <div class="header"><span>分享文章</span></div>
       <div class="body">
         <div class="link"><input class="copy-area" readonly="true" id="copy-link" value="https://linexic.top/2025/02/02/jsDelivr-mirror/" /></div>
-        <div class="social-wrap dis-select"><a class="social share-item wechat" onclick="util.toggle(&quot;qrcode-wechat&quot;)"><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/b32ef3da1162a.svg" /></a><a class="social share-item weibo" target="_blank" rel="external nofollow noopener noreferrer" href="https://service.weibo.com/share/share.php?url=https://linexic.top/2025/02/02/jsDelivr-mirror/&title=搭建自己的jsDelivr镜像 - LineXic书屋&summary=前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建
+        <div class="social-wrap dis-select"><a class="social share-item wechat" onclick="util.toggle(&quot;qrcode-wechat&quot;)"><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/b32ef3da1162a.svg" /></a><a class="social share-item weibo" target="_blank" rel="external nofollow noopener noreferrer" href="https://service.weibo.com/share/share.php?url=https://linexic.top/2025/02/02/jsDelivr-mirror/&title=搭建自己的jsDelivr镜像 - LineXic书屋&summary=前言在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加载速度，或者你也可以自己搭建
 Vercel搭建（推荐）源代码仓库:
 基于Vercel的Js..."><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/80c07e4dbb303.svg" /></a><a class="social share-item email" href="mailto:?subject=搭建自己的jsDelivr镜像 - LineXic书屋&amp;body=https://linexic.top/2025/02/02/jsDelivr-mirror/"><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/a1b00e20f425d.svg" /></a><a class="social share-item link" onclick="util.copy(&quot;copy-link&quot;, &quot;复制成功&quot;)"><img class="lazy"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="https://gcore.jsdelivr.net/gh/cdn-x/placeholder@1.0.12/social/8411ed322ced6.svg" /></a></div>
         

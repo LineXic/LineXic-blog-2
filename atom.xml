@@ -6,7 +6,7 @@
   <link href="https://linexic.top/atom.xml" rel="self"/>
   
   <link href="https://linexic.top/"/>
-  <updated>2025-02-02T13:59:58.790Z</updated>
+  <updated>2025-02-02T14:06:06.818Z</updated>
   <id>https://linexic.top/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://linexic.top/2025/02/02/jsDelivr-mirror/"/>
     <id>https://linexic.top/2025/02/02/jsDelivr-mirror/</id>
     <published>2025-02-02T00:24:44.000Z</published>
-    <updated>2025-02-02T13:59:58.790Z</updated>
+    <updated>2025-02-02T14:06:06.818Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的加载速度或者你也可以自己搭建</p><h2 id="Vercel搭建（推荐）"><a href="#Vercel搭建（推荐）" class="headerlink" title="Vercel搭建（推荐）"></a>Vercel搭建（推荐）</h2><p>源代码仓库:</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="基于Vercel的Jsdelivr反向代理" href="https://github.com/YShenZe/vercel-jsdelivr-mirror" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://github.com/YShenZe/vercel-jsdelivr-mirror" autofill=""><div class="left"><span class="title">基于Vercel的Jsdelivr反向代理</span><span class="cap link footnote">https://github.com/YShenZe/vercel-jsdelivr-mirror</span></div><div class="right"><div class="lazy img" data-bg="https://github.com/favicon.ico"></div></div></a></div><p>可以Fork到自己的仓库然后打开vercel的控制台连接等它屏幕放烟花的时候就成功了</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>由于vercel.app域名被墙，我们可以绑定域名，具体步骤是Sitting→Domains→Add然后添加你的域名吧，记得在域名所在商解析域名，推荐解析到vercel大陆域名</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cname-china.vercel-dns.com</span><br></pre></td></tr></table></figure><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>本项目使用TailwindCss设计样式，用了一些vercel.json的设计规则进行反代有专属英文页面且完全开源，也具有和官网一样的搜索功能</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="梦泽的 jsDelivr 镜像站" href="https://jsdelivr.linexic.top/" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://jsdelivr.linexic.top/" autofill=""><div class="left"><span class="title">梦泽的 jsDelivr 镜像站</span><span class="cap link footnote">https://jsdelivr.linexic.top/</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.com/favicon.ico"></div></div></a></div>]]></content>
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加载速度，或者你也可以自己搭建</p><h2 id="Vercel搭建（推荐）"><a href="#Vercel搭建（推荐）" class="headerlink" title="Vercel搭建（推荐）"></a>Vercel搭建（推荐）</h2><p>源代码仓库:</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="基于Vercel的Jsdelivr反向代理" href="https://github.com/YShenZe/vercel-jsdelivr-mirror" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://github.com/YShenZe/vercel-jsdelivr-mirror" autofill=""><div class="left"><span class="title">基于Vercel的Jsdelivr反向代理</span><span class="cap link footnote">https://github.com/YShenZe/vercel-jsdelivr-mirror</span></div><div class="right"><div class="lazy img" data-bg="https://github.com/favicon.ico"></div></div></a></div><p>可以Fork到自己的仓库然后打开vercel的控制台连接等它屏幕放烟花的时候就成功了</p><h2 id="绑定域名"><a href="#绑定域名" class="headerlink" title="绑定域名"></a>绑定域名</h2><p>由于vercel.app域名被墙，我们可以绑定域名，具体步骤是Sitting→Domains→Add然后添加你的域名吧，记得在域名所在商解析域名，推荐解析到vercel大陆域名</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cname-china.vercel-dns.com</span><br></pre></td></tr></table></figure><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>本项目使用TailwindCss设计样式，用了一些vercel.json的设计规则进行反代有专属英文页面且完全开源，也具有和官网一样的搜索功能</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="梦泽的 jsDelivr 镜像站" href="https://jsdelivr.linexic.top/" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://jsdelivr.linexic.top/" autofill=""><div class="left"><span class="title">梦泽的 jsDelivr 镜像站</span><span class="cap link footnote">https://jsdelivr.linexic.top/</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.com/favicon.ico"></div></div></a></div>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点，来加速自己网页的</summary>
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;在国内，由于一些缘故使用jsDelivr CDN的速度确实有些慢的感人，这时候就有自建jsDelivr-mirror的站点来加速自己网页的加</summary>
       
     
     
