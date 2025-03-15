@@ -6,7 +6,7 @@
   <link href="https://linexic.top/atom.xml" rel="self"/>
   
   <link href="https://linexic.top/"/>
-  <updated>2025-03-08T02:52:57.415Z</updated>
+  <updated>2025-03-15T08:30:54.898Z</updated>
   <id>https://linexic.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>windows搭建Java服务器</title>
+    <link href="https://linexic.top/2025/03/14/windows%E6%90%AD%E5%BB%BAJava%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>https://linexic.top/2025/03/14/windows%E6%90%AD%E5%BB%BAJava%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+    <published>2025-03-14T15:13:08.000Z</published>
+    <updated>2025-03-15T08:30:54.898Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>因为忍受不了服务器厂商服务器的价格及各种限制所以折腾了一个Java服务器来和朋友们游玩，同样的，如果没有电脑可以查看这篇文章来用手机搭建一个基岩版服务器</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="使用安卓手机无成本搭建 Minecraft 基岩版服务器（BDS）" href="https://blog.iamsjy.com/2023/07/11/install-mc-bds-on-android-phone-with-no-cost/" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://blog.iamsjy.com/2023/07/11/install-mc-bds-on-android-phone-with-no-cost/" autofill="icon"><div class="left"><span class="title">使用安卓手机无成本搭建 Minecraft 基岩版服务器（BDS）</span><span class="cap link footnote">https://blog.iamsjy.com/2023/07/11/install-mc-bds-on-android-phone-with-no-cost/</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.linexic.top/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div><h1 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h1><p>打开<a href="https://www.oracle.com/java/technologies/downloads/">Oracle官网</a>找到适合自己系统的java</p><p><img src="https://s21.ax1x.com/2025/03/15/pEa0FVP.png" alt="pEa0FVP.png"><br>下载完成后双击安装，一直下一步即可，值得注意的是一般软件不要安装到C盘，因为C盘是系统盘，安装到C盘可能会导致启动电脑慢等问题</p><h2 id="配置Java"><a href="#配置Java" class="headerlink" title="配置Java"></a>配置Java</h2><p>键入<code>win + x</code>打开搜索控制面板</p><p><img src="https://s21.ax1x.com/2025/03/15/pEa0arR.png" alt="pEa0arR.png"></p><p>点击环境变量并且新建</p><p><img src="https://s21.ax1x.com/2025/03/15/pEa0dq1.png" alt="pEa0dq1.png"></p><ul><li>变量名：JAVA_HOME</li><li>变量值：为安装的java路径</li></ul><p>双击系统变量中的Path，点击新建<code>%JAVA_HOME%\bin</code><br><img src="https://s21.ax1x.com/2025/03/15/pEa06Re.png" alt="pEa06Re.png"></p><p>完成后保存，打开cmd输入<code>java -version</code>查看是否安装成功</p><h1 id="下载服务端"><a href="#下载服务端" class="headerlink" title="下载服务端"></a>下载服务端</h1><div class="tag-plugin link dis-select"><a class="link-card plain" title="下载Forge" href="https://files.minecraftforge.net/net/minecraftforge/forge/" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://files.minecraftforge.net/net/minecraftforge/forge/" autofill="icon"><div class="left"><span class="title">下载Forge</span><span class="cap link footnote">https://files.minecraftforge.net/net/minecraftforge/forge/</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.linexic.top/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div>  <p>下载好后把它拖拽到一个新建的文件夹中</p><p><img src="https://s21.ax1x.com/2025/03/15/pEaBkLR.png" alt="pEaBkLR.png"></p><h1 id="启动服务器"><a href="#启动服务器" class="headerlink" title="启动服务器"></a>启动服务器</h1><p>在那个文件夹内在右上角找到<code>文件</code>然后右边使用管理员身份打开后键入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -Xmx最大值g -Xms最小值g -jar 下载的文件名字.jar</span><br></pre></td></tr></table></figure><p>出现这个页面就可以安装了，安装路径最好是forge所在的路径下<br><img src="https://s21.ax1x.com/2025/03/15/pEaDih8.png" alt="pEaDih8.png"></p><p>等待安装基本文件后就可以在cmd中输入</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">java -jar minecraft_server.服务端端口号.jar --nogui</span><br></pre></td></tr></table></figure><p>来启动服务器了，如果做出修改需要键入<code>stop</code>来停止服务器，再键入上一步来启动服务器</p><p>如果你的服务器在第一次启动过程中无故嘛没启动成功可以先在文件夹中找到<code>eula.txt</code>文件，将<code>eula=false</code>改为<code>eula=true</code>然后保存证明你同意他们的协议<br>关于server.properties文件内的配置请查看百科</p><div class="tag-plugin link dis-select"><a class="link-card plain" title="服务端配置文件格式" href="https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F?variant=zh-cn" target="_blank" rel="external nofollow noopener noreferrer" cardlink api="https://info.linexic.top/api/v1/?url=https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F?variant=zh-cn" autofill="icon"><div class="left"><span class="title">服务端配置文件格式</span><span class="cap link footnote">https://zh.minecraft.wiki/w/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F?variant=zh-cn</span></div><div class="right"><div class="lazy img" data-bg="https://jsdelivr.linexic.top/gh/cdn-x/placeholder@1.0.12/link/8f277b4ee0ecd.svg"></div></div></a></div>  <p>至于其他的如何发布到公网可以在度娘那里寻找内网穿透</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;因为忍受不了服务器厂商服务器的价格及各种限制所以折腾了一个Java服务器来和朋友们游玩，同样的，如果没有电脑可以查看这篇文章来用手机搭建一个</summary>
+      
+    
+    
+    
+    <category term="折腾日记" scheme="https://linexic.top/categories/%E6%8A%98%E8%85%BE%E6%97%A5%E8%AE%B0/"/>
+    
+    
+    <category term="Minecraft" scheme="https://linexic.top/tags/Minecraft/"/>
+    
+  </entry>
   
   <entry>
     <title>读余华《第七天》</title>
@@ -512,31 +536,6 @@
     <category term="CSS" scheme="https://linexic.top/tags/CSS/"/>
     
     <category term="前端" scheme="https://linexic.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>月记之二:生活与学业</title>
-    <link href="https://linexic.top/2024/09/01/month-2/"/>
-    <id>https://linexic.top/2024/09/01/month-2/</id>
-    <published>2024-09-01T15:21:00.000Z</published>
-    <updated>2025-02-10T02:00:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>「体验生活期」可算结束了，今天是9.1日，一些初中学校和小学已经开学了在这一天我历经41天的「历练」结束了😄算下来也已经很久有更新「前端」部分的博客了（因为要干活嘛）</p><p>这次经历下来也不是没有学到东西，也学到了，比如我之前是一个比较社恐的人，不太敢说话，经过这次我就感觉我大胆了一些也敢说话了再者就是动手能力强了，遇到一些东西也敢拆敢装了，总结下来就是<em><strong>你在困难和经历中成长</strong></em>这句话我跟老板总结出来的时候老板还夸我呢🤣🌚</p><p>再者说一下学业吧。马上开始新的学期博客还是会抽时间更新的，毕竟我还要坚持我的「梦想」然后就是努力学习，在我初中考三百多分的时候高中也要进步</p><p>这次来讲一下封面吧，封面是我们有一次去拉安装的门，但门还没完全弄好就在一个地方等待了一会（就是在封面这里）</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;「体验生活期」可算结束了，今天是9.1日，一些初中学校和小学已经开学了在这一天我历经41天的「历练」结束了😄算下来也已经很久有更新「前端」部分的博客了（因为要干活嘛）&lt;/p&gt;
-&lt;p&gt;这次经历下来也不是没有学到东西，也学到了，比如我之前是一个比较社恐的人，不太敢说话，经过这</summary>
-      
-    
-    
-    
-    <category term="月记" scheme="https://linexic.top/categories/%E6%9C%88%E8%AE%B0/"/>
-    
-    
-    <category term="月记" scheme="https://linexic.top/tags/%E6%9C%88%E8%AE%B0/"/>
     
   </entry>
   
